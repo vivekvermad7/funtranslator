@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #00aeffd3;
+}
+
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color:rgba(207, 231, 229, 0.945);
+    color: #000;
+}
+
+.message{
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 1rem;
+    background: #00b0ff;
+    color: #fff;
+    margin: 1rem;
+}
+
+.message h2{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.message p{
+    font-weight: bold;
+}
+
+.btn-close{
+    font-size: 1rem;
+    padding: 0.3rem 1rem;
+    outline: none;
+    margin: 1rem 0;background: #00b0ff;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+.btn-close:hover{
+    background: #fff;
+    border: solid 1px #00b0ff;
+    color: #00b0ff;
+}
+
+
+nav{
+    border-bottom: solid 1px #fff;
+}
+
+nav h1{
+    text-align: center;
+    background: #00b0ff;
+    padding: 1rem 0;
+    font-size: 2.3rem;
+    color: rgb(255 255 255);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem auto;   
+    width: 100%;
+    max-width: 450px;
+    padding: 1rem;
+    
+}
+
+textarea{
+    width: 100%;
+    max-width: 400px;
+    height: 150px;
+    margin-top: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    background: #fbfcfd;
+    color: rgba(0, 0, 0, 0.856);
+}
+
+ .translation-txt{
+    width: 100%;
+    max-width: 400px;
+    height: 150px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    background:  #fff;
+} 
+
+label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+select{
+    font-size: 0.9rem;
+    padding: 0.2rem;
+    font-weight: bold;
+    background: #00b0ff;
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+.textInfo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+option{
+    font-size: 0.8rem;
+    background: #dd4904;
+}
+
+.translate-btn{
+    display: block;
+    font-size: 1.1rem;
+    padding: 0.3rem 2.5rem;
+    margin: 1rem 0 1rem 0;
+    outline: none;
+    background: #00aeffcb;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+.translate-btn:hover{
+    background: #fff;
+    border: solid 1px #00b0ff;
+    color: #00b0ff;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

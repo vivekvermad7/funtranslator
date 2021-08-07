@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>FUNNY Translator</title>
+</head>
+<body>
+    <div class="info">
+        <div class="message">
+            <h2>Welcome to Fun Translator</h2>
+            <p>Hey there, welcome to fun translator. 
+                Translate english language into some fun 
+                and crazy languages like minion, yoda, groot, pirates, etc.
+                
+            </p>
+            <button class="btn-close">close</button>
+        </div>
+        
+    </div>
+    <nav>
+        <h1>Fun Translator</h1>
+    </nav>
+    <main>
+        <div>
+            <label for="type-select">Translate into </label>
+            <select name="type" id="type-select">
+                <option value="">&nbsp; --Please choose an option-- &nbsp;</option>
+                <option value="shakespeare.json">Shakespeare language</option>
+                <option value="groot.json">Groot language</option>
+                <option value="minion.json">Minion language</option>
+                <option value="yoda.json">Yoda language</option>
+                <option value="ferb-latin.json">Ferb latin language</option>
+                <option value="pirate.json">Pirate language</option>
+                <option value="navi.json">Navi (Avatar) language</option>
+            </select>
+        </div>
+            <textarea placeholder="Type here...."></textarea>
+        
+            <button class="translate-btn">Translate</button>
+            <p class="textInfo">Translation will be here &#8681;</p>
+            <div class="translation-txt"></div>          
+    </main>
+
+    <footer></footer>
+    <script src="./app.js"></script>
+</body>
+</html>
